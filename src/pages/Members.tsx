@@ -46,10 +46,11 @@ const members: Member[] = [
     id: 3,
     name: 'Adigun Abiola Segun',
     role: 'Treasurer',
-    occupation: 'Business',
+    occupation: 'CEO Bifas Enterprises Nigeria Limited',
     email: 'abiolasadigun@gmail.com',
     phone: '+234 7012803390',
-    nextOfKin: 'Mrs. abiola',
+    dateOfBirth: 'September 9th',
+    nextOfKin: 'Adigun Olalekan',
   },
   {
     id: 4,
@@ -58,6 +59,7 @@ const members: Member[] = [
     occupation: 'Banker',
     email: 'fatima.a@feb24.org',
     phone: '+234 808 546 3323',
+    dateOfBirth: 'March 22nd',
     nextOfKin: 'Mr. Ahmed Abdullahi',
   },
   {
@@ -67,6 +69,7 @@ const members: Member[] = [
     occupation: 'Media Consultant',
     email: 'david.okafor@feb24.org',
     phone: '+234 803 422 9775',
+    dateOfBirth: 'August 10th',
     nextOfKin: 'Mrs. Ada Okafor',
   },
   {
@@ -76,6 +79,7 @@ const members: Member[] = [
     occupation: 'Social Worker',
     email: 'chioma.n@feb24.org',
     phone: '+234 807 897 1818',
+    dateOfBirth: 'September 5th',
     nextOfKin: 'Mr. Emeka Nwachukwu',
   },
   {
@@ -85,6 +89,7 @@ const members: Member[] = [
     occupation: 'Engineer',
     email: 'emmanuel.t@feb24.org',
     phone: '+234 818 217 2805',
+    dateOfBirth: 'January 18th',
     nextOfKin: 'Mrs. Folake Taiwo',
   },
   {
@@ -94,6 +99,7 @@ const members: Member[] = [
     occupation: 'Teacher',
     email: 'aisha.m@feb24.org',
     phone: '+234 708 411 8909',
+    dateOfBirth: 'July 30th',
     nextOfKin: 'Mr. Ibrahim Mohammed',
   },
   {
@@ -103,6 +109,7 @@ const members: Member[] = [
     occupation: 'Doctor',
     email: 'samuel.o@feb24.org',
     phone: '+234 811 546 5887',
+    dateOfBirth: 'November 14th',
     nextOfKin: 'Mrs. Titi Ogundipe',
   },
   {
@@ -112,6 +119,7 @@ const members: Member[] = [
     occupation: 'Entrepreneur',
     email: 'blessing.a@feb24.org',
     phone: '+234 808 791 5960',
+    dateOfBirth: 'May 7th',
     nextOfKin: 'Mr. Chidi Agu',
   },
   {
@@ -121,6 +129,7 @@ const members: Member[] = [
     occupation: 'IT Specialist',
     email: 'victor.u@feb24.org',
     phone: '+234 809 111 2222',
+    dateOfBirth: 'October 25th',
     nextOfKin: 'Mrs. Linda Uche',
   },
   {
@@ -130,6 +139,7 @@ const members: Member[] = [
     occupation: 'Pharmacist',
     email: 'ngozi.i@feb24.org',
     phone: '+234 810 333 4444',
+    dateOfBirth: 'February 19th',
     nextOfKin: 'Mr. Obinna Ikenna',
   },
 ];
