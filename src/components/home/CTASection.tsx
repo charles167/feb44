@@ -40,7 +40,7 @@ const CTASection = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-3xl mx-auto">
             {[
               { label: 'Monthly Meetings', value: 'Every Last Saturday' },
-              { label: 'Next Event', value: 'January 25, 2025' },
+              { label: 'Anniversary', value: 'February 24th' },
               { label: 'New Member Fee', value: 'Contact for Info' },
             ].map((item, index) => (
               <div 

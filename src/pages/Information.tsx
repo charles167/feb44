@@ -43,7 +43,12 @@ const penalties = [
   { offense: 'Violence or threats', fine: 'Immediate Suspension' },
 ];
 
-const anthemLyrics = `We are growing, we are strong`;
+const anthemLyrics = `We are one in FEB24
+We are focus elite brothers group
+We share love and grow together
+We are united and discipline
+We are strong in our plans
+And in one accord we are strong`;
 
 const Information = () => {
   const [activeTab, setActiveTab] = useState('aims');
@@ -132,12 +137,6 @@ const Information = () => {
               subtitle="Our Song"
               title="FEB24 Anthem"
               description="Sing along to our association anthem that embodies our unity and spirit."
-              we are one in feb24
-              we are focus elite brothers group
-              we share love and grow together
-              we are united and discipline
-              we are strong in our plans 
-              and in one accord we are strong
             />
             <div className="bg-card rounded-2xl p-8 shadow-card">
               <div className="flex items-center justify-center gap-4 mb-8">
