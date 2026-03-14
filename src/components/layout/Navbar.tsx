@@ -40,9 +40,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-3 group">
-            <div className="w-10 h-10 rounded-full bg-gradient-hero flex items-center justify-center shadow-card group-hover:scale-110 transition-transform duration-300">
-              <span className="text-primary-foreground font-serif font-bold text-lg">F</span>
-            </div>
+            <img src="https://res.cloudinary.com/dspkz3qiq/image/upload/v1773499960/logo_feb24_wn8xrz.jpg" alt="FEB24 Logo" className="w-10 h-10 rounded-full object-cover shadow-card group-hover:scale-110 transition-transform duration-300" />
             <span className={cn(
               "font-serif font-bold text-xl transition-colors duration-300",
               isScrolled ? "text-primary" : "text-primary-foreground"
