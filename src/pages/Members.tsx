@@ -95,12 +95,12 @@ const members: Member[] = [
   {
     id: 8,
     name: 'Afolabi Yusuf',
-    role: 'Member',
-    occupation: 'Teacher',
-    email: 'aisha.m@feb24.org',
+    role: 'Project Member',
+    occupation: 'Business',
+    email: 'afolabiyusufayinla@gmail.com',
     phone: '+234 708 411 8909',
-    dateOfBirth: 'July 30th',
-    nextOfKin: 'Mr. Ibrahim Mohammed',
+    dateOfBirth: 'October 10th',
+    nextOfKin: 'Afolabi Habeeb',
   },
   {
     id: 9,
