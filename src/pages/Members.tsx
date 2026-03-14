@@ -232,7 +232,7 @@ const MemberCard = ({ member }: { member: Member }) => {
               WhatsApp: {member.phone}
             </a>
           )}
-          {member.isLeader && member.dateOfBirth && (
+          {member.dateOfBirth && (
             <div className="flex items-center gap-3 text-muted-foreground">
               <Calendar className="w-4 h-4 text-secondary" />
               {member.dateOfBirth}
