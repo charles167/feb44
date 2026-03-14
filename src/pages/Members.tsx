@@ -247,7 +247,16 @@ const Members = () => {
   return (
     <Layout>
       {/* Hero Section */}
-      <section className="pt-32 pb-20 bg-gradient-hero relative overflow-hidden">
+      <section 
+        className="pt-32 pb-20 relative overflow-hidden"
+        style={{
+          backgroundImage: 'url(https://res.cloudinary.com/dspkz3qiq/image/upload/v1773496398/feb_image_bcyegb.jpg)',
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          backgroundAttachment: 'fixed'
+        }}
+      >
+        <div className="absolute inset-0 bg-black/40" />
         <div className="absolute inset-0">
           <div className="absolute top-1/4 right-1/4 w-80 h-80 bg-secondary/20 rounded-full blur-3xl" />
           <div className="absolute bottom-1/4 left-1/4 w-96 h-96 bg-accent/10 rounded-full blur-3xl" />

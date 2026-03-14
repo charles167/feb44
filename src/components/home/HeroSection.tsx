@@ -14,8 +14,16 @@ const HeroSection = () => {
   return (
     <section 
       ref={heroRef}
-      className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-hero"
+      className="relative min-h-screen flex items-center justify-center overflow-hidden"
+      style={{
+        backgroundImage: 'url(https://res.cloudinary.com/dspkz3qiq/image/upload/v1773496398/feb_image_bcyegb.jpg)',
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundAttachment: 'fixed'
+      }}
     >
+      {/* Dark Overlay */}
+      <div className="absolute inset-0 bg-black/50" />
       {/* Animated Background Elements */}
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-secondary/10 rounded-full blur-3xl animate-pulse" />
